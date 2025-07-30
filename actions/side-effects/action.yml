@@ -11,6 +11,10 @@ inputs:
     required: false
     default: 'count_artifacts'
 
+outputs:
+  output_folder:
+    description: 'Output folder containing count artifacts'
+
 runs:
   using: composite
   steps:

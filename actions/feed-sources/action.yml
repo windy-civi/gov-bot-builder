@@ -10,6 +10,10 @@ inputs:
     required: false
     default: 'rss_artifacts'
 
+outputs:
+  output_folder:
+    description: 'Output folder containing RSS artifacts'
+
 runs:
   using: composite
   steps:

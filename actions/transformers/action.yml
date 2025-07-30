@@ -17,6 +17,10 @@ inputs:
     description: 'Date to filter by (YYYY-MM-DD format)'
     required: true
 
+outputs:
+  output_folder:
+    description: 'Output folder containing filtered RSS artifacts'
+
 runs:
   using: composite
   steps:
