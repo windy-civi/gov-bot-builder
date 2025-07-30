@@ -2,9 +2,9 @@ name: Simple RSS Pipeline Test
 
 on:
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   push:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
   test-rss-pipeline:
@@ -28,8 +28,8 @@ jobs:
         uses: ./actions/transformers
         with:
           input_folder: ${{ steps.import-feeds.outputs.output_folder }}
-          op: GTE
-          date_filter: "2025-07-01"
+          op: GT
+          date_filter: "2025-07-25"
 
       - name: Count items
         id: count-items
@@ -54,7 +54,14 @@ jobs:
             exit 1
           fi
           
-          echo "✅ Found $count RSS items"
-          echo "✅ Pipeline completed successfully!"
+          # Expected count: 6 items (3 from July 29 + 3 from July 28)
+          expected_count=6
+          if [ "$count" -eq "$expected_count" ]; then
+            echo "✅ Found $count RSS items (expected: $expected_count)"
+            echo "✅ Pipeline completed successfully!"
+          else
+            echo "❌ Error: Expected $expected_count items, but found $count"
+            exit 1
+          fi
 
  
