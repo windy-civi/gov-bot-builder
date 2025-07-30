@@ -17,7 +17,7 @@ jobs:
 
       - name: Import Feeds
         id: import-feeds
-        uses: ./actions/feed-sources/rss-importer.yml
+        uses: ./actions/feed-sources
         with:
           feeds: |
             ./.github/test-data/presidential-actions.rss
@@ -25,7 +25,7 @@ jobs:
 
       - name: Filter by date
         id: filter-date
-        uses: ./actions/transformers/date-filter.yml
+        uses: ./actions/transformers
         with:
           input_folder: ${{ steps.import-feeds.outputs.output_folder }}
           op: GTE
@@ -33,7 +33,7 @@ jobs:
 
       - name: Count items
         id: count-items
-        uses: ./actions/side-effects/item-counter.yml
+        uses: ./actions/side-effects
         with:
           input_folder: ${{ steps.filter-date.outputs.output_folder }}
           output_folder: "windy_civi_rss_artifacts"
