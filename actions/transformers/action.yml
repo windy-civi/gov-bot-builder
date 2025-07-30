@@ -49,7 +49,7 @@ runs:
         OP: ${{ inputs.op }}
         DATE_FILTER: ${{ inputs.date_filter }}
       run: |
-        python date_filter.py
+        python actions/transformers/date_filter.py
       shell: bash
 
     - name: Set output

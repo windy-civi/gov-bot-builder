@@ -40,7 +40,7 @@ runs:
         FEEDS_INPUT: ${{ inputs.feeds }}
         OUTPUT_FOLDER: ${{ inputs.output_folder }}
       run: |
-        python rss_importer.py
+        python actions/feed-sources/rss_importer.py
       shell: bash
 
     - name: Set output

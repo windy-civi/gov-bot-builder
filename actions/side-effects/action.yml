@@ -36,7 +36,7 @@ runs:
         INPUT_FOLDER: ${{ inputs.input_folder }}
         OUTPUT_FOLDER: ${{ inputs.output_folder }}
       run: |
-        python item_counter.py
+        python actions/side-effects/item_counter.py
       shell: bash
 
     - name: Set output
