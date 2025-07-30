@@ -43,112 +43,13 @@ runs:
       shell: bash
 
     - name: Filter RSS items by date
+      env:
+        INPUT_FOLDER: ${{ inputs.input_folder }}
+        OUTPUT_FOLDER: ${{ inputs.output_folder }}
+        OP: ${{ inputs.op }}
+        DATE_FILTER: ${{ inputs.date_filter }}
       run: |
-        python -c "
-import json
-import os
-import glob
-from datetime import datetime
-from dateutil import parser
-
-input_folder = '${{ inputs.input_folder }}'
-output_folder = '${{ inputs.output_folder }}'
-op = '${{ inputs.op }}'
-date_filter_str = '${{ inputs.date_filter }}'
-
-# Parse the filter date
-try:
-    filter_date = datetime.strptime(date_filter_str, '%Y-%m-%d').date()
-except ValueError:
-    print(f'Error: Invalid date format. Expected YYYY-MM-DD, got {date_filter_str}')
-    exit(1)
-
-print(f'Filtering RSS items with {op} {date_filter_str}')
-
-# Find all JSON files in input folder
-json_files = glob.glob(os.path.join(input_folder, '*.json'))
-
-if not json_files:
-    print(f'No JSON files found in {input_folder}')
-    exit(0)
-
-total_items = 0
-filtered_items = 0
-
-for json_file in json_files:
-    try:
-        print(f'Processing {json_file}')
-        
-        with open(json_file, 'r', encoding='utf-8') as f:
-            feed_data = json.load(f)
-        
-        original_items = len(feed_data.get('items', []))
-        total_items += original_items
-        
-        # Filter items based on publication date
-        filtered_items_list = []
-        
-        for item in feed_data.get('items', []):
-            item_date_str = item.get('published')
-            
-            if not item_date_str:
-                # Skip items without publication date
-                continue
-            
-            try:
-                # Parse item date
-                item_date = parser.parse(item_date_str).date()
-                
-                # Apply filter based on operator
-                include_item = False
-                
-                if op == 'GTE':  # Greater than or equal
-                    include_item = item_date >= filter_date
-                elif op == 'LTE':  # Less than or equal
-                    include_item = item_date <= filter_date
-                elif op == 'EQ':   # Equal
-                    include_item = item_date == filter_date
-                elif op == 'GT':   # Greater than
-                    include_item = item_date > filter_date
-                elif op == 'LT':   # Less than
-                    include_item = item_date < filter_date
-                else:
-                    print(f'Warning: Unknown operator {op}, skipping item')
-                    continue
-                
-                if include_item:
-                    filtered_items_list.append(item)
-                    filtered_items += 1
-                    
-            except Exception as e:
-                print(f'Warning: Could not parse date {item_date_str}: {e}')
-                continue
-        
-        # Update feed data with filtered items
-        feed_data['items'] = filtered_items_list
-        feed_data['filtered_at'] = datetime.now().isoformat()
-        feed_data['filter_operator'] = op
-        feed_data['filter_date'] = date_filter_str
-        feed_data['original_item_count'] = original_items
-        feed_data['filtered_item_count'] = len(filtered_items_list)
-        
-        # Save filtered feed to output folder
-        filename = os.path.basename(json_file)
-        output_path = os.path.join(output_folder, filename)
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(feed_data, f, indent=2, ensure_ascii=False)
-        
-        print(f'Filtered {original_items} -> {len(filtered_items_list)} items')
-        
-    except Exception as e:
-        print(f'Error processing {json_file}: {e}')
-        continue
-
-print(f'Date filtering completed!')
-print(f'Total items processed: {total_items}')
-print(f'Items after filtering: {filtered_items}')
-"
+        python date_filter.py
       shell: bash
 
     - name: Set output
