@@ -1,0 +1,60 @@
+name: Simple RSS Pipeline Test
+
+on:
+  pull_request:
+    branches: [ main, master ]
+  push:
+    branches: [ main, master ]
+
+jobs:
+  test-rss-pipeline:
+    name: Test RSS Processing Pipeline
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Import Feeds
+        id: import-feeds
+        uses: ./actions/feed-sources/rss-importer.yml
+        with:
+          feeds: |
+            ./.github/test-data/presidential-actions.rss
+            ./.github/test-data/supereme-court-rulings.rss
+
+      - name: Filter by date
+        id: filter-date
+        uses: ./actions/transformers/date-filter.yml
+        with:
+          input_folder: ${{ steps.import-feeds.outputs.output_folder }}
+          op: GTE
+          date_filter: "2025-07-01"
+
+      - name: Count items
+        id: count-items
+        uses: ./actions/side-effects/item-counter.yml
+        with:
+          input_folder: ${{ steps.filter-date.outputs.output_folder }}
+          output_folder: "windy_civi_rss_artifacts"
+
+      - name: Validate basic output
+        run: |
+          echo "Validating RSS processing artifacts..."
+          
+          # Check if count file exists and has content
+          if [ ! -f "windy_civi_rss_artifacts/count.txt" ]; then
+            echo "❌ Error: count.txt file not found"
+            exit 1
+          fi
+          
+          count=$(cat windy_civi_rss_artifacts/count.txt)
+          if [ -z "$count" ]; then
+            echo "❌ Error: count.txt is empty"
+            exit 1
+          fi
+          
+          echo "✅ Found $count RSS items"
+          echo "✅ Pipeline completed successfully!"
+
+ 

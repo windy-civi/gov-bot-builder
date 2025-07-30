@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+
+    <channel>
+        <title>SCOTUSblog</title>
+        <atom:link href="https://www.scotusblog.com/feed/" rel="self" type="application/rss+xml" />
+        <link>https://www.scotusblog.com/</link>
+        <description>Independent News and Analysis on the U.S. Supreme Court</description>
+        <lastBuildDate>Tue, 29 Jul 2025 16:18:50 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly </sy:updatePeriod>
+        <sy:updateFrequency>
+            1 </sy:updateFrequency>
+        <generator>https://wordpress.org/?v=6.8.2</generator>
+
+        <image>
+            <url>
+                https://www.scotusblog.com/wp-content/uploads/2024/02/cropped-App-logo-png-1.png?w=32</url>
+            <title>SCOTUSblog</title>
+            <link>https://www.scotusblog.com/</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        <site xmlns="com-wordpress:feed-additions:1">244088387</site>
+        <item>
+            <title>The ways in which justices reach their decisions</title>
+            <link>
+                https://www.scotusblog.com/2025/07/how-supreme-court-justices-reach-their-decisions/</link>
+
+            <dc:creator><![CDATA[Adam Feldman]]></dc:creator>
+            <pubDate>Tue, 29 Jul 2025 16:15:03 +0000</pubDate>
+            <category><![CDATA[Empirical SCOTUS]]></category>
+            <category><![CDATA[Featured]]></category>
+            <category><![CDATA[Recurring Columns]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530364</guid>
+
+            <description><![CDATA[<p>Empirical SCOTUS&#160;is a recurring series by Adam Feldman that looks at Supreme Court data, primarily in the form of opinions and oral arguments, to provide insights into the justices’ decision [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/how-supreme-court-justices-reach-their-decisions/">The ways in which justices reach their decisions</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p><em><a href="https://www.scotusblog.com/category/empirical-scotus/">Empirical SCOTUS</a>&nbsp;is a recurring series by Adam Feldman that looks at Supreme Court data, primarily in the form of opinions and oral arguments, to provide insights into the justices’ decision making and what we can expect from the court in the future.</em></p>
+
+
+
+<p><em>Please note that the views of outside contributors do not reflect the official opinions of SCOTUSblog or its staff.</em></p>
+
+
+
+<p>In <a href="https://www.scotusblog.com/cases/case-files/trump-v-casa-inc/"><em>Trump v. CASA</em></a><em>,</em> one of the 2024-25 term’s blockbuster decisions, Justice Amy Coney Barrett’s majority opinion frames the dispute around the judiciary’s authority to issue universal injunctions – that is, orders that prohibit the executive branch from enforcing a law or policy anywhere in the country – and sets the tone through a mode of interpretation that blends textualism, originalism, and historical practice. Throughout the opinion, the court warns against transforming the judiciary into an “imperial” branch and highlights the practical consequences of its decision – indicators of what are called structural and pragmatic reasoning.</p>
+
+
+
+<span id="more-530364"></span>
+
+
+
+<p>These interpretive moves exemplify what the <a href="https://www.congress.gov/crs-product/R45129">Congressional Research Service</a> (CRS) identifies as eight modes of legal reasoning – textualism, original meaning (originalism), judicial precedent, structuralism, historical practice, pragmatism, moral reasoning, and national identity. Though often overlapping in practice, each draws on distinct sources of authority, from grammatical analysis (textualism) to constitutional design (structuralism) to shared civic values (national identity). Given the Supreme Court’s ideological divisions, these interpretive methods serve not merely as tools but as signals of deeper jurisprudential commitments.</p>
+
+
+
+<p><strong>Methodology</strong></p>
+
+
+
+<p>To analyze these modes empirically, I defined each of them as a measurable category, assigning a 0–20 score based on how often and how integrally it was used in each opinion of the 2024-25 term. &nbsp; </p>
+
+
+
+<p>For each majority opinion, I examined the language, citations, and reasoning to identify signs of different interpretation styles – like focusing on the exact words of a law (textualism) or looking to historical understanding at the time it was written (originalism). Each method was given a score from 1 to 20 based on how often and how clearly the mode appears. I then used basic quantitative tools – such as word counts, phrase tracking, and citation mapping – to gather measurable data linked to each interpretive style. These results were then aggregated to produce clear scores that reflect which interpretive methods the justice relied on most, allowing for consistent comparisons across many decisions</p>
+
+
+
+<p><strong>Breaking down <em>CASA</em> with this methodology</strong></p>
+
+
+
+<p>Barrett’s majority opinion in <em>Trump v. CASA </em>places particular emphasis on the structural and historical limits of judicial power. The central interpretive mode is historical practice (which sometimes overlaps with originalism), and it receives the highest score (19/20) due to Barrett’s repeated insistence that “for most of our Nation’s history,” no universal injunctions were issued, and that “[n]either the universal injunction nor any analogous form of relief was available in the High Court of Chancery in England at the time of the founding.”</p>
+
+
+
+<p>Closely supporting this is structuralism (16/20), which frames the case in terms of judicial overreach and constitutional role boundaries. Barrett asserts that “federal courts do not exercise general oversight of the Executive Branch,” and she repeatedly reinforces the court’s institutional limits, aligning judicial power with the original constitutional design.</p>
+
+
+
+<p>Originalism (14/20) is similarly instrumental: Barrett interprets the Judiciary Act of 1789 through the lens of Founding-era equity practice, asserting that equitable relief – that is, a court order requiring a party to do something or stop doing something, rather than awarding money damages – today must match those sorts of equitable remedies “‘traditionally accorded by courts of equity’ at our country’s inception.” These interpretive commitments converge in her use of judicialprecedent (13/20), as she marshals several past cases to underscore that nonparty injunctions (orders that provide relief to individuals or entities who are not part of the case) have never been doctrinally legitimate. Textualism (13/20) reinforces this by reading the phrase “all suits…in equity” in the 1789 Act as cabined by its historical context.</p>
+
+
+
+<p>Finally, pragmatism (10/20) plays a supportive role, as Barrett notes the proliferation of universal injunctions under recent administrations and warns of their systemic effects, including forum shopping and judicial instability.</p>
+
+
+
+<p>Notably absent are appeals to national ethos (0) or strong moral reasoning (5) – Barrett explicitly critiques the dissents for such “rhetoric” and insists the opinion rests on “limits on judicial power.” The result is thus a decisively originalist and historically-bounded account of judicial authority that offers minimal rhetorical flourish and maximal institutional constraint.</p>
+
+
+
+<p><strong>Justice Clarence Thomas, joined by Justice Neil Gorsuch, concurring</strong></p>
+
+
+
+<p>Thomas’ concurrence differs from the majority mainly in the <em>depth and exclusivity</em> of its originalist and structuralist emphasis. Where originalism scores 14 and structuralism scores 16 in the majority opinion, Thomas&#8217; opinion elevates those modes to originalism at 17 and structuralism at 18 by emphasizing that equitable remedies must adhere strictly to the traditional understanding of judicial power at the Founding. His structural reasoning is also more rigid, treating the equitable remedy as inseparable from institutional boundaries imposed by Article III of the Constitution. Thomas’ pragmatism score of 4 is much lower than Barrett’s, as he appears far less concerned with the practical effects of the court’s decision.</p>
+
+
+
+<p><strong>Justice Samuel Alito, joined by Thomas, concurring</strong></p>
+
+
+
+<p>Alito&#8217;s opinion introduces a distinct interpretive mode not deeply analyzed in the majority: the <em>procedural implications</em> of third-party standing and class certification. His focus pushes the structuralism score to 17, slightly higher than the majority, as he is especially concerned with institutional roles and the proper function of procedural doctrines. For instance, he warns: “Left unchecked, the practice of reflexive state third-party standing will undermine today’s decision as a practical matter.” Alito scores 12 for judicial precedent, slightly lower than the majority, as he relies less on stare decisis – that is, the principle that courts should generally adhere to their prior precedents.</p>
+
+
+
+<p><strong>Justice Brett Kavanaugh concurring</strong></p>
+
+
+
+<p>Kavanaugh is interpretively distinct for his heavy pragmatist reasoning (at 17), far more pronounced than in the majority. He emphasizes the administrative chaos and legal instability caused by universal injunctions, stating that while “uniformity is often essential or at least sensible and prudent,” “disuniformity—even if only for a few years or less—can be chaotic.” Additionally, while agreeing with the textual and historical basis for the court’s holding, Kavanaugh’s structuralism score is slightly lower at 14 because he views the court’s supervisory role more flexibly: He sees interim legal uniformity as being preserved <em>by</em> judicial action, not limited by it. In other words, he is more of an institutionalist than others in the majority.</p>
+
+
+
+<p><strong>Justice Sonia Sotomayor, joined by Justices Elena Kagan and Ketanji Brown Jackson, dissenting</strong></p>
+
+
+
+<p>Sotomayor’s dissent is interpretively anchored in moral reasoning at 18 and national ethos at 17, dramatically higher than the majority, where those modes score 5 and 0, respectively. She centers the constitutional stakes on newborns and systemic harm, asking “[w]hat grave harm does the Executive face that prompts a majority of this Court to grant it relief? The answer, the Government says, is the inability to enforce the Citizenship Order against nonparties.” She leverages judicial precedent at 16, citing <a href="https://supreme.justia.com/cases/federal/us/169/649/"><em>United States v. Wong Kim Ark</em></a>, <a href="https://supreme.justia.com/cases/federal/us/457/202/"><em>Plyler v. Doe</em></a>, <a href="https://supreme.justia.com/cases/federal/us/60/393/"><em>Dred Scott v. Sandford</em></a>, and <a href="https://supreme.justia.com/cases/federal/us/430/199/"><em>Califano v. Goldfarb</em></a> in a way that prioritizes the lived experience of legal deprivation.</p>
+
+
+
+<p><strong>Jackson dissenting</strong></p>
+
+
+
+<p>Jackson’s opinion diverges most in structuralism, at 19, and moral reasoning, at 20, grounding her dissent in a deep philosophical defense of judicial review and constitutional supremacy. She critiques the majority for enabling “a zone of lawlessness”: “To conclude otherwise is to endorse the creation of a zone of lawlessness within which the Executive has the prerogative to take or leave the law as it wishes.” Her discussion of the rule of law versus the rule of men evokes the foundational constitutional structure, garnering her a structuralism score of 19. She also scores 13 for originalism, albeit unconventionally, by invoking Founding-era rejections of monarchical prerogative as justification for the full judicial enforcement of constitutional limits.</p>
+
+
+
+<p><strong>Looking beyond <em>CASA</em>: combined case analysis</strong></p>
+
+
+
+<p>As noted earlier, I measured each signed majority opinion of the court from this past Supreme Court term using this methodology.&nbsp; Here are the main findings.</p>
+
+
+
+<p>First, look at the average score per mode (from a selection of six of them) per justice. Some of the scores, like those for originalism, are significantly lower because, although they appear prominently in certain cases, the methods of interpretation are not prominently used in most of the decisions:</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="618" height="368" src="https://www.scotusblog.com/wp-content/uploads/2025/07/Picture1.jpg" alt="" class="wp-image-530372" srcset="https://www.scotusblog.com/wp-content/uploads/2025/07/Picture1.jpg 618w, https://www.scotusblog.com/wp-content/uploads/2025/07/Picture1.jpg?resize=300,179 300w, https://www.scotusblog.com/wp-content/uploads/2025/07/Picture1.jpg?resize=400,238 400w" sizes="(max-width: 618px) 100vw, 618px" /></figure>
+
+
+
+<p>As shown in the chart, the most frequent and deeply embedded method among the justices is textualism, with Gorsuch (17.17), Barrett (16.71), and Thomas (15.86) leading on average. These scores reflect consistent reliance on a close reading of statutory and constitutional language, application of canons of construction, and emphasis on grammatical structure. In contrast, Kavanaugh (12.90) and Sotomayor (12.00) apply textual analysis with less centrality, though still significantly.</p>
+
+
+
+<p>In terms of originalism, a sharp ideological divide emerges. Gorsuch (3.33), Barrett (3.00), and Thomas (2.86) lead in the use of originalist reasoning, while the liberal bloc – Jackson (0.60), Sotomayor (1.40), and Justice Elena Kagan (1.80) – score notably lower, rarely invoking Founding-era meaning or the Framers’ intent in their constitutional reasoning.</p>
+
+
+
+<p>On judicial precedent, there is broad engagement across the bench. Chief Justice John Roberts tops the scale (16.00), with Kavanaugh (15.50), Sotomayor (14.20), and Jackson (14.17) close behind, reflecting a deep integration of case law as an anchor for constitutional and statutory holdings.</p>
+
+
+
+<p>Finally, structuralism – a method concerned with institutional design and the separation of powers – shows high scores from Kagan (11.33), Alito (10.83), and Kavanaugh (10.71). </p>
+
+
+
+<p>The next graph maps the average use of each mode across cases:</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="624" height="392" src="https://www.scotusblog.com/wp-content/uploads/2025/07/Picture2.jpg?w=624" alt="" class="wp-image-530373" srcset="https://www.scotusblog.com/wp-content/uploads/2025/07/Picture2.jpg 624w, https://www.scotusblog.com/wp-content/uploads/2025/07/Picture2.jpg?resize=300,188 300w, https://www.scotusblog.com/wp-content/uploads/2025/07/Picture2.jpg?resize=400,251 400w" sizes="(max-width: 624px) 100vw, 624px" /></figure>
+
+
+
+<p>The most prominent finding is the dominant reliance on textualism (14.73) and judicial precedent (14.33), which together form the interpretive backbone of most opinions. This suggests the court heavily favors grounded, rule-based methods that prioritize the statutory or constitutional text and prior case law, reinforcing continuity and doctrinal clarity.</p>
+
+
+
+<p>Structuralism also features strongly (10.16), reflecting the court’s recurrent use of constitutional design – particularly federalism and separation of powers – to support its reasoning. Pragmatism follows (8.58), showing moderate engagement with the real-world consequences and policy effects. The historical practices method (5.71) ranks lower, indicating a limited but meaningful use of tradition and custom.</p>
+
+
+
+<p>Strikingly, originalism scores quite low (1.94), suggesting its rhetorical prominence in public discourse far exceeds its actual frequency in written opinions. Even lower is national ethos (1.22), and moral reasoning (3.05), reflecting a court more invested in institutional logic than ethical or identity-based appeals.</p>
+
+
+
+<p><strong>What this analysis shows</strong></p>
+
+
+
+<p>The 2024–25 Supreme Court term <a href="https://www.scotusblog.com/2025/07/the-2024-25-term-brought-notable-wins-for-the-courts-conservative-majority-and-the-trump-administration/">was defined by</a> the outsized influence of President Donald Trump’s re-election and a wave of ideologically charged disputes over executive power, immigration, civil rights, and the limits of judicial relief. Across this docket, the justices’ approaches to interpretation revealed distinct patterns. The court’s conservative bloc, particularly Thomas, Alito, and Barrett, leaned more heavily on originalism and textualism. Their opinions frequently referenced Founding-era sources, emphasized the fixed meanings of legal texts, and avoided pragmatic balancing. By contrast, the liberal justices – Sotomayor, Kagan, and Jackson – more frequently deployed pragmatism and moral reasoning, often grounding their opinions in the real-world consequences of rulings and appeals to justice, fairness, and civic values.</p>
+
+
+
+<p>Yet, these interpretive scores are not solely products of judicial ideology. The nature of the cases themselves – ranging from emergency docket rulings to high-profile constitutional challenges – influenced which interpretive modes became salient. The majority opinion in <em>CASA</em>, for example, drew out structural and historical reasoning, while avoiding moral or ethos-based appeals altogether.&nbsp;</p>
+
+
+
+<p>This variability underscores the importance of measuring interpretive method not only as a window into judicial philosophy but also as a function of the cases the court chooses to hear. Across the term, these measurements allow scholars and others to observe interpretive alignment and divergence with new precision – making clear that in a polarized court, interpretive choices remain both deeply ideological and case-contingent.</p>
+
+
+
+<p><em>A longer version of this post can be read at</em><a href="https://legalytics.substack.com/p/measuring-the-modes"><em> https://legalytics.substack.com/p/measuring-the-modes</em></a></p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/how-supreme-court-justices-reach-their-decisions/">The ways in which justices reach their decisions</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530364</post-id>
+        </item>
+        <item>
+            <title>Where the Supreme Court’s two most conservative justices part ways</title>
+            <link>
+                https://www.scotusblog.com/2025/07/supreme-courts-most-conservative-justices-part-ways/</link>
+
+            <dc:creator><![CDATA[Kelsey Dallas]]></dc:creator>
+            <pubDate>Tue, 29 Jul 2025 13:15:05 +0000</pubDate>
+            <category><![CDATA[Featured]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530360</guid>
+
+            <description><![CDATA[<p>If you want to go fast, go alone. If you want a more conservative court, go together. That twist on the popular proverb, or something like it, could be used [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/supreme-courts-most-conservative-justices-part-ways/">Where the Supreme Court’s two most conservative justices part ways</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>If you want to go fast, go alone. If you want a more conservative court, go together.</p>
+
+
+
+<p>That twist on the popular proverb, or something like it, could be used to describe the relationship between Justices Clarence Thomas and Samuel Alito, the Supreme Court’s most closely aligned — and most ideologically conservative — pair.</p>
+
+
+
+<span id="more-530360"></span>
+
+
+
+<p>Specifically, according to <a href="https://www.scotusblog.com/stat-pack-2025/?_ptid=%7Bkpdx%7DAAAA18nOfYHwyAoKbGtjVUlwd3NwdRIQbWN0ZXE4MXZ1Y2l6dmZzcRoMRVhDOFhXVFkxNUVGIiUxODA3ZGE4MGJrLTAwMDAzNXY2MWg3NWRndWNnMWJsZjNqa2VvKhpzaG93VGVtcGxhdGUxRUpQNEw1VkJXUzAyNzABOgxPVFBaWUlFSzlNMDVCDU9UVjE5SjFJTFZDQU5SEnYtbWN0ZHM4aWZwaGp5cHNxOVokMjYwMDo2YzQ0OjU4NDA6MzpmMGUwOmIzODI6ZjhjMDpiYjlmYgNkbWNo17m1wwZwBHgE">SCOTUSblog’s Stat Pack</a>, Thomas and Alito agreed in 97% of all cases resolved with opinions from the court and in 100% of the closely divided (6-3 or 5-4) ones in the 2024-25 term.</p>
+
+
+
+<p>While Justices Elena Kagan and Ketanji Brown Jackson also agreed in 100% of closely divided cases, as <a href="https://www.scotusblog.com/2025/07/does-justice-kagan-stand-alone/">SCOTUSblog</a> previously reported, no pair of justices was in agreement overall as often as Thomas and Alito. They voted differently in just two cases; the next closest duo in terms of overall alignment (Jackson and Justice Sonia Sotomayor) disagreed in four.</p>
+
+
+
+<p>Because Thomas and Alito were each in the majority in one of the two cases that split them, they were equally likely to be in the majority on the whole. Each voted with the majority in 78% of all the cases resolved with opinions from the court, 62% of non-unanimous cases, and 50% of closely divided ones.</p>
+
+
+
+<p>Additionally, in the 13 cases in which both Thomas and Alito were in dissent, there was almost always an overlap between the dissenting opinions they wrote or signed onto.</p>
+
+
+
+<p>So what were the two cases in which Thomas and Alito were on opposite sides last term? They both had to do with criminal proceedings.</p>
+
+
+
+<p>In <a href="https://www.supremecourt.gov/opinions/24pdf/23-6573_m647.pdf"><em>Andrew v. White</em></a>, the court considered whether a death-row inmate, Brenda Evers Andrew, could challenge her conviction for murder and the resulting death sentence based on how prosecutors deployed her sexual history during her trial. The Supreme Court, in an unsigned opinion and without hearing oral arguments, sent Andrew’s case back to the U.S. Court of Appeals for the 10th Circuit for that court to consider whether prosecutors had violated her due process rights.</p>
+
+
+
+<p>Alito agreed with the court’s decision to send the case back to the 10th Circuit for another look. Under the Supreme Court’s cases, he said, the introduction of “irrelevant and highly prejudicial evidence” that “overwhelm[s]” other, “properly admitted evidence” can violate a defendant’s due process rights. But he did not weigh in on “whether that very high standard” had been satisfied in Andrew’s case.</p>
+
+
+
+<p>Thomas wrote a dissenting opinion, joined by Justice Neil Gorsuch. Thomas argued that the majority had mischaracterized how prosecutors used the sex-related evidence at Andrew’s trial and misapplied legal precedent when assessing the 10th Circuit’s work.</p>
+
+
+
+<p>In the second case, <a href="https://www.supremecourt.gov/opinions/24pdf/23-7483_6k4c.pdf"><em>Esteras v. United States</em></a>, the justices addressed what sentencing factors should be used when courts consider whether to revoke a term of supervised release, leading to a defendant’s reimprisonment. Thomas joined the 7-2 majority opinion from Justice Amy Coney Barrett, which said that judges must base their decisions on the sentencing factors listed in supervised release law and not consider what other sentencing laws say about retribution.</p>
+
+
+
+<p>Alito, joined by Gorsuch, dissented, arguing that the court’s opinion had no basis in the text and structure of the law. “Veteran trial judges often complain that their appellate colleagues live in a world of airy abstractions and do not give enough thought to the practical effects of their holdings. Today’s decision is likely to earn the rank of Exhibit A in the trial bench’s catalog of appellate otherworldliness,” he wrote, lines that earned him a shoutout in SCOTUSblog’s list of the <a href="https://www.scotusblog.com/2025/07/the-most-intense-dissents-of-the-term/">most intense dissents</a> of the 2024-25 term.</p>
+
+
+
+<p>What can we take away from this?</p>
+
+
+
+<p>Although the justices each discussed the societal effects of the court’s ruling in their respective dissents, only Alito seemed to let a concern about those effects drive his analysis. As noted, much of Alito’s dissent in&nbsp;<em>Esteras&nbsp;</em>was spent exploring how the court’s opinion “defie[d] common sense” by making trial judges “engage in mind-bending exercises.” In <em>Andrew v. White</em>, Thomas raised a concern about creating confusion in the lower courts, but spent most of his dissent discussing other aspects of the court’s decision. Thus, in the rare case where they disagreed, Alito was more focused on the practical outcome of the court’s decision than Thomas.</p>
+
+
+
+<p>Also of note is that Thomas and Alito each voted with Gorsuch in the two cases in which they did not vote with each other. That might not surprise you <a href="https://thedispatch.com/podcast/advisoryopinions/justice-kagans-supreme-court/">if you’ve heard</a> the three justices described as the conservative counterpart to the court’s three Democratic appointees. During the 2024-25 term, there were 10 6-3 decisions. Thomas, Alito, and Gorsuch were in the minority together in four of them, while Kagan, Sotomayor, and Jackson dissented together in the other six.</p>
+
+
+
+<p>However, the alignment between the three conservative justices is not the same as the alignment between the three liberal ones. While Kagan, Sotomayor, and Jackson each voted with their fellow liberal justices more often than with any other justices, Thomas and Alito agreed with Barrett and Justice Brett Kavanaugh more often than they agreed with Gorsuch in all cases decided with opinions from the court.</p>
+
+
+
+<p>Perhaps the biggest difference between Thomas and Alito is that Thomas is a more prolific writer. He penned 29 opinions during the 2024-25 term (seven for the majority, 13 in concurrence, and nine in dissent), while Alito wrote 17 (six, five, and six, respectively.)</p>
+
+
+
+<p>Moving forward, the most pressing question may not be whether Thomas and Alito will continue to stick together. Given their alignment this term, that seems quite likely. Rather, it’s when either of the two, or both, will <a href="https://www.abajournal.com/web/article/speculation-begins-over-possible-supreme-court-retirements">retire from the court</a>.</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/supreme-courts-most-conservative-justices-part-ways/">Where the Supreme Court’s two most conservative justices part ways</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530360</post-id>
+        </item>
+        <item>
+            <title>The morning read for Tuesday, July 29</title>
+            <link>https://www.scotusblog.com/2025/07/the-morning-read-for-tuesday-july-29/</link>
+
+            <dc:creator><![CDATA[Zachary Shemtob]]></dc:creator>
+            <pubDate>Tue, 29 Jul 2025 13:00:00 +0000</pubDate>
+            <category><![CDATA[Round-up]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530358</guid>
+
+            <description><![CDATA[<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Tuesday morning read:</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-tuesday-july-29/">The morning read for Tuesday, July 29</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Tuesday morning read:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.usatoday.com/story/news/politics/2025/07/28/ghislaine-maxwell-epstein-doj-supreme-court-trump/85408665007/">In Supreme Court appeal, Ghislaine Maxwell fights Justice Department view of Epstein plea deal</a> (Maureen Groppe, USA Today) </li>
+
+
+
+<li><a href="https://www.wsj.com/us-news/law/judges-continue-to-block-trump-policies-following-supreme-court-ruling-bf20d1ef?st=aKaHm7&amp;reflink=desktopwebshare_permalink">Judges Continue to Block Trump Policies Following Supreme Court Ruling</a> (Louise Radnofsky, Mariah Timms, and Jess Bravin, The Wall Street Journal) </li>
+
+
+
+<li><a href="https://www.cnn.com/2025/07/28/politics/birthright-citizenship-passport-social-security">New documents show how passport and Social Security rules would change to enforce Trump’s birthright citizenship order</a> (Devan Cole, John Fritze, and Priscilla Alvarez, CNN) </li>
+
+
+
+<li><a href="https://www.nytimes.com/2025/07/28/opinion/supreme-court-emergency-rulings.html">The Supreme Court Owes the Country Explanations for Its Big Decisions</a> (The Editorial Board, The New York Times)</li>
+
+
+
+<li><a href="https://www.nationalreview.com/bench-memos/justice-kagans-belated-call-for-civility-too-little-too-late/">Justice Kagan’s Belated Call for Civility: Too Little, Too Late?</a> (Carrie Campbell Severino, Bench Memos, National Review) </li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-tuesday-july-29/">The morning read for Tuesday, July 29</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530358</post-id>
+        </item>
+        <item>
+            <title>The shadows of the emergency docket</title>
+            <link>https://www.scotusblog.com/2025/07/the-shadows-of-the-emergency-docket/</link>
+
+            <dc:creator><![CDATA[Daniel Harawa]]></dc:creator>
+            <pubDate>Mon, 28 Jul 2025 16:50:19 +0000</pubDate>
+            <category><![CDATA[Civil Rights and Wrongs]]></category>
+            <category><![CDATA[Featured]]></category>
+            <category><![CDATA[Recurring Columns]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530348</guid>
+
+            <description><![CDATA[<p>Civil Rights and Wrongs is a recurring series by Daniel Harawa covering criminal justice and civil rights cases before the court. Please note that the views of outside contributors do [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-shadows-of-the-emergency-docket/">The shadows of the emergency docket</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p><em><a href="https://www.scotusblog.com/category/civil-rights-and-wrongs/">Civil Rights and Wrongs</a> is a recurring series by </em><a href="https://www.scotusblog.com/author/daniel-harawa/"><em>Daniel Harawa</em></a><em> covering criminal justice and civil rights cases before the court.</em></p>
+
+
+
+<p><em>Please note that the views of outside contributors do not reflect the official opinions of SCOTUSblog or its staff.</em></p>
+
+
+
+<p>When it comes to the death penalty, the 2024-25 term presented a tale of two dockets.</p>
+
+
+
+<span id="more-530348"></span>
+
+
+
+<p>If you looked only at the merits docket, the Supreme Court seemed surprisingly sympathetic to people on death row.</p>
+
+
+
+<p>First, in <a href="https://www.supremecourt.gov/opinions/24pdf/23-6573_m647.pdf"><em>Andrew v. White</em></a>, the court sent the case of death-row inmate Brenda Andrew back to the U.S. Court of Appeals for the 10th Circuit to consider whether Oklahoma violated Andrew’s due process rights by introducing irrelevant and inflammatory evidence about her sex life at her trial.</p>
+
+
+
+<p>Next came <a href="https://www.supremecourt.gov/opinions/24pdf/22-7466_5h25.pdf"><em>Glossip v. Oklahoma</em></a>, in which the court reversed Richard Glossip’s nearly 30-year-old conviction and ordered a new trial, finding that prosecutors failed to correct false testimony and suppressed key evidence – misconduct so severe that even Oklahoma’s Republican attorney general agreed that his conviction and death sentence should be thrown out.</p>
+
+
+
+<p>Finally, in <a href="https://www.supremecourt.gov/opinions/24pdf/23-7809_3e04.pdf"><em>Gutierrez v. Saenz</em></a>, the court held that Texas death-row prisoner Ruben Gutierrez had a legal right to pursue a claim that he was unconstitutionally denied DNA testing that would help prove his innocence.</p>
+
+
+
+<p>These cases mark three significant wins for capital defendants – a high watermark in recent memory. And the only real “loss” for a capital defendant in a merits case was in <a href="https://www.scotusblog.com/cases/case-files/hamm-v-smith-3/"><em>Hamm v. Smith</em></a>, in which the court sent the case back to the U.S. Court of Appeals for the 11th Circuit for it to clarify the methodology it used to affirm the district court’s finding that Joseph Smith is intellectually disabled and thus ineligible for the death penalty. (Smith’s case will be <a href="https://www.scotusblog.com/cases/case-files/hamm-v-smith-4/">back</a> before the court in the 2025-26 term.) Looking at only the merits docket, one might think that the court was proceeding with caution when it came to the “ultimate punishment,” a marked change from the “<a href="https://www.supremecourt.gov/opinions/20pdf/20-927_i42k.pdf">hurry up, hurry up</a>” approach the court adopted at the <a href="https://www.scotusblog.com/2021/09/abortion-the-death-penalty-and-the-shadow-docket/">end of the first Trump administration</a>.</p>
+
+
+
+<p>But that picture changes the moment you take heed of the emergency docket.</p>
+
+
+
+<p>When Florida executed Michael Bell on July 15, he became the 26th person executed in the United States this year. This number marks a <a href="https://www.usatoday.com/story/news/nation/2025/07/15/united-states-high-executions-florida-michael-bell/85214091007/">10-year high</a> in executions, with at least nine more still scheduled. Given this rash of executions, the court has received a flurry of emergency applications seeking last-minute reprieve. Every single one of these was denied – usually in a terse one-sentence, unsigned order issued hours, if not minutes, before the execution was set to proceed. (There is one notable exception: <a href="https://www.supremecourt.gov/opinions/24pdf/24a893_b97c.pdf"><em>Hoffman v. Westcott</em></a>, in which Justice Neil Gorsuch dissented in a case in which the applicant argued that the state’s chosen method of execution would substantially burden his religious exercise; Justices Sonia Sotomayor, Elena Kagan, and Ketanji Brown Jackson would have granted the application for a stay.)</p>
+
+
+
+<p>Several of these emergency applications, which garnered little attention, raised weighty issues and exposed severe defects in the death penalty’s administration. Take the case of <a href="https://www.scotusblog.com/cases/case-files/jordan-v-mississippi-4/">Richard Jordan</a>. Jordan, a Vietnam veteran who had suffered from PTSD, was 79 years old when Mississippi executed him, having been on death row for nearly five decades. Seven years ago, <a href="https://www.supremecourt.gov/opinions/17pdf/17-7153_1823.pdf">Justice Stephen Breyer</a> pointed to Jordan’s case as a reason to revisit the constitutionality of the death penalty writ large, explaining that, in light of the time Jordan had spent on death row, his case presented “special problems of cruelty or arbitrariness.”</p>
+
+
+
+<p>Or consider <a href="https://www.scotusblog.com/cases/case-files/wainwright-v-florida/">Anthony Wainwright</a>, who – because of his counsel’s ineffectiveness – became the <a href="https://deathpenaltyinfo.org/anthony-wainwright-executed-june-10-in-florida-lost-federal-appeals-due-to-lawyers-mistakes-and-indifference-and-was-denied-counsel-of-his-choice">13th</a> person in the modern death penalty era to be executed without a federal court reviewing the constitutionality of his claims.</p>
+
+
+
+<p><a href="https://www.supremecourt.gov/DocketPDF/24/24A1231/363053/20250612224033048_SCS-2025.06.12-stay.app.pdf">Stephen Stanko</a> filed an application challenging South Carolina’s newly authorized use of the firing squad as an alternative means of execution to the electric chair and lethal injection.</p>
+
+
+
+<p>Or return to <a href="https://www.supremecourt.gov/DocketPDF/25/25A57/365139/20250714163805896_2025-07-14%20Application%20for%20Stay.pdf">Michael Bell</a>, who was executed in the face of an alarmingclaim that the prosecution strong-armed witnesses into falsely accusing him. The court let each of these executions proceed <a href="https://www.scotusblog.com/cases/case-files/bell-v-florida-2/">without comment</a>, although Sotomayor and Kagan noted that they would have granted Bell’s stay application.</p>
+
+
+
+<p>Focusing on capital punishment and the 2024-25 term, the difference between the merits docket and the emergency docket is stark. On the merits docket, the court appears to be addressing abuses of prosecutorial power, protecting the integrity of trials, and providing mechanisms to ensure that the innocent are not executed. But on the emergency docket – the track for nearly all death-penalty litigation – the court won’t pause executions to examine similarly important claims. Indeed, with members of the court often framing death penalty litigation as nothing more than an attempt at <a href="https://www.supremecourt.gov/opinions/23pdf/23-5618_7648.pdf">delay</a>, the court’s cynicism obscures the merits of the claims being pursued. &nbsp;</p>
+
+
+
+<p>This past term, outside of its death docket, the court’s emergency docket overshadowed its merits docket. As the Trump administration repeatedly sought emergency relief in a host of high-stakes cases, court watchers were laser-focused on whether and how the court would act in its emergency posture. But even as the court’s emergency docket took the spotlight, the court’s death docket stayed in the shadows. Yet this aspect of the emergency docket is just as consequential, often serving as the final arbiter of who lives and dies. And as the number of executions ramps up, so too will the number of emergency applications. These cases, and the people whose lives are at stake, deserve our attention too.</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-shadows-of-the-emergency-docket/">The shadows of the emergency docket</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530348</post-id>
+        </item>
+        <item>
+            <title>The most important cases of the next term</title>
+            <link>https://www.scotusblog.com/2025/07/most-important-upcoming-supreme-court-cases/</link>
+
+            <dc:creator><![CDATA[Amy Howe]]></dc:creator>
+            <pubDate>Mon, 28 Jul 2025 13:38:56 +0000</pubDate>
+            <category><![CDATA[Featured]]></category>
+            <category><![CDATA[Merits Cases]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530344</guid>
+
+            <description><![CDATA[<p>When the justices return to the bench to hear oral arguments in the fall, they will tackle several hot-button issues, including state bans on the participation by transgender athletes on [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/most-important-upcoming-supreme-court-cases/">The most important cases of the next term</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>When the justices return to the bench to hear oral arguments in the fall, they will tackle several hot-button issues, including state bans on the participation by transgender athletes on women’s and girls’ sports teams, voting rights, religion, campaign-finance laws, and the death penalty. Before adjourning for their summer recess, the justices had granted review in 32 cases – precisely the number needed to fill their argument calendars for October, November, and December.</p>
+
+
+
+<p>Here, in brief, are some of the most important cases on the court’s merits docket so far.</p>
+
+
+
+<span id="more-530344"></span>
+
+
+
+<p>On the last day before the court’s summer recess, the justices once again agreed to wade into the culture wars when they announced that they would hear a pair of challenges to the constitutionality of laws that prohibit transgender girls and women from participating on girls’ and women’s sports teams. In <a href="https://www.scotusblog.com/cases/case-files/little-v-hecox/"><em>Little v. Hecox</em></a>, the court will hear a case brought by Lindsay Hecox, a transgender woman who wanted to compete on the women’s track and cross-country teams at Boise State University. She asked a federal court to bar Idaho from enforcing its ban against her, and the U.S. Court of Appeals for the 9th Circuit agreed that the law violates the Constitution’s guarantee of equal protection.</p>
+
+
+
+<p>And in <a href="https://www.scotusblog.com/cases/case-files/west-virginia-v-b-p-j-2-2/"><em>West Virginia v. B.P.J.</em></a>, the court will hear a case filed by a 14-year-old transgender girl who has begun to receive puberty blockers and hormone therapy, seeking to be able to compete on the girls’ sports teams at her middle school. The U.S. Court of Appeals for the 4th Circuit ruled last year that West Virginia’s ban violates Title IX, a federal law prohibiting sex discrimination in educational programs and activities that receive federal funding, because it discriminates against the student based on sex.</p>
+
+
+
+<p>Just under four months before taking up the transgender sports cases, the Supreme Court had already agreed to weigh in on another flashpoint in the culture wars – a challenge to the constitutionality of Colorado’s ban on “conversion therapy” – therapy to “convert” someone’s sexual orientation or gender identity. The plaintiff in <a href="https://www.scotusblog.com/cases/case-files/chiles-v-salazar/"><em>Chiles v. Salazar</em></a> is a practicing Christian who says that she sometimes works with clients who want to discuss topics that “implicate Christian values about human sexuality and the treatment of their own body.” As a licensed counselor, she says, “she believes clients can accept the bodies that God has given them and find peace,” and the law violates her First Amendment right to free speech and to freely exercise her religion by barring her from helping them to do so.</p>
+
+
+
+<p>A federal appeals court in Denver upheld the Colorado law. It concluded that the state had enacted the law to regulate the health-care profession, and in particular therapists’ conduct, rather than therapists’ speech.</p>
+
+
+
+<p>In November 2024, the court – after considering the case at more than 20 conferences – <a href="https://www.supremecourt.gov/opinions/24pdf/23-167_heim.pdf">sent the case of Joseph Smith</a>, who was convicted and sentenced to death for the murder of Durk Van Dam, back to the U.S. Court of Appeals for the 11th Circuit for that court to clarify how it reached its conclusion that Smith was intellectually disabled, so that his execution would violate the Eighth Amendment’s ban on cruel and unusual punishment.</p>
+
+
+
+<p>Justices Clarence Thomas and Neil Gorsuch indicated that they would have gone ahead and granted the state’s petition for review then, without waiting for the court of appeals to take another look.</p>
+
+
+
+<p>The case returned to the court of appeals, which once again <a href="https://cases.justia.com/federal/appellate-courts/ca11/14-10721/14-10721-2024-11-14.pdf?ts=1731630699">concluded</a> that Smith’s death sentence should be set aside. Smith had obtained five IQ scores, ranging from 72 to 78, and his intellectual-disability claim hinged in part on whether his IQ was 70 or lower. The 11th Circuit stressed that it had not thrown out Smith’s death sentence simply because the standard range of error for his lowest IQ score (72) would put his IQ at 69. Instead, it said, it had upheld the district court’s ruling in Smith’s favor “based on the complete record, including any relevant expert testimony.”</p>
+
+
+
+<p>The <a href="https://www.scotusblog.com/cases/case-files/hamm-v-smith-4/">state returned to the Supreme Court</a> in February, and in early June the justices agreed to decide how and whether courts should assess a defendant’s claim that he cannot be executed because he is intellectually disabled when, as in Smith’s case, the defendant has taken multiple IQ tests.</p>
+
+
+
+<p>In <a href="https://www.scotusblog.com/cases/case-files/louisiana-v-callais-2/"><em>Louisiana v. Callais</em></a>, the court will hear oral arguments for a second time in a challenge to Louisiana’s most recent congressional map. A group of Louisiana voters who describe themselves as “non-African American” argued that the map, which created a second majority-Black district in the state, was an unconstitutional racial gerrymander.</p>
+
+
+
+<p>A three-judge federal court agreed and prohibited Louisiana from using the map in the 2024 elections. But the Supreme Court put that decision on hold last year, clearing the way for the state to use it.</p>
+
+
+
+<p>When the case came to the Supreme Court, the state argued that it was effectively between a rock and a hard place. It had created the map with two majority-Black districts, it said, after a different federal court threw out an earlier map that only contained one majority-Black district, finding that the map violated the Voting Rights Act. The map at the center of the current case was enacted to comply with that court’s instructions to draw a new map, and to protect powerful Republican incumbents in the U.S. House of Representatives, it contended. The non-African-American voters countered that it was “utterly implausible” that race was not the primary motivating factor in the decision to draw the 2024 map.</p>
+
+
+
+<p>After almost 80 minutes of arguments in March, there <a href="https://www.scotusblog.com/2025/03/court-weighs-louisiana-redistricting-with-second-majority-black-district/">did not seem to be a consensus</a> among the justices on how to resolve the case. And indeed, on June 27, the court revealed that it was apparently not able to resolve the dispute during the 2024-25 term. Instead, the court issued a one-page order indicating that the case would be rescheduled for argument during the 2025-26 term. “In due course,” the justices added, they would release an order “specifying any additional questions to be addressed in supplemental briefing” – an order that, as of the time of publication, has not yet been issued. &nbsp;</p>
+
+
+
+<p>In a major campaign-finance case, <a href="https://www.scotusblog.com/cases/case-files/national-republican-senatorial-committee-v-federal-election-commission/"><em>National Republican Senatorial Committee v. Federal Election Commission</em></a>, the justices will reconsider their 2001 ruling in <a href="https://www.fec.gov/resources/legal-resources/litigation/533_US_431.pdf"><em>Federal Election Commission v. Colorado Republican Federal Campaign Committee</em></a><em>, </em>in which the court upheld federal limits on coordinated campaign expenditures, which restrict political parties from spending money on campaign advertising in cooperation with political candidates.</p>
+
+
+
+<p>The NRSC, then-Sen. J.D. Vance, and others filed their challenge in federal court in Cincinnati, contending that the campaign-finance limits violate the First Amendment. They urged the U.S. Court of Appeals for the 6th Circuit to overturn them, arguing that the court’s 2001 decision in the Colorado case should no longer apply because since then the Supreme Court has “tightened the free-speech restrictions on campaign-finance regulations.”</p>
+
+
+
+<p>The court of appeals acknowledged a “tension” between the Colorado case and the Supreme Court’s later decisions but Chief Judge Jeffrey Sutton emphasized that only the Supreme Court, and not the court of appeals, can overturn the Colorado decision. The challengers then came to the Supreme Court, which agreed on June 30 to take up their case.</p>
+
+
+
+<p>The justices will also weigh in on whether an inmate can file a lawsuit seeking to hold a government official personally responsible, rather than suing the government entity for which the official works, for violations of a federal law intended to protect the religious liberty rights of prisoners. Damon Landor, the plaintiff in <a href="https://www.scotusblog.com/cases/case-files/landor-v-louisiana-department-of-corrections-and-public-safety/"><em>Landor v. Louisiana Department of Corrections and Public Safety</em></a>, was nearing the end of a five-month sentence in the Louisiana prison system when he was transferred to another prison, where he explained to an intake guard that he was a practicing Rastafarian. Landor had not cut his hair, which reached nearly to his knees, for almost 20 years. But although Landor also provided the guard with a copy of a ruling by a federal appeals court striking down the state’s policy prohibiting prisoners from wearing dreadlocks, the prison’s warden instructed guards to restrain him in a chair, where they forcibly shaved his head.</p>
+
+
+
+<p>Landor went to federal court, where he argued that the state and the prison officials had violated the Religious Land Use and Institutionalized Persons Act, a law enacted by Congress in 2000 in part to strengthen prisoners’ religious rights. The U.S. Court of Appeals for the 5th Circuit threw out his claims against the individual prison officials, holding that the RLUIPA does not allow private plaintiffs to bring claims against individual officials for money damages.</p>
+
+
+
+<p>In <a href="https://www.scotusblog.com/cases/case-files/cox-communications-inc-v-sony-music-entertainment/"><em>Cox Communications v. Sony Music Entertainment</em></a>, the justices will decide an important copyright question – specifically, whether and to what extent an internet service provider can be held liable for copyright infringement by its subscribers. A group of music labels, led by Sony Music, filed a lawsuit against Cox, contending that some of its subscribers had repeatedly infringed the labels’ copyrights over a two-year period. A jury agreed and awarded the labels $1 billion.</p>
+
+
+
+<p>The U.S. Court of Appeals for the 4th Circuit tossed out the $1 billion award, but it nonetheless agreed that Cox was liable for contributing to the subscribers’ infringement of the labels’ copyrights. Cox came to the Supreme Court last year, and the justices agreed in June to take up the case.</p>
+
+
+
+<p>The Supreme Court will hear arguments in the fall in a case involving what sounds like a relatively technical question: Whether a federal court has the power to rule on a group’s claim that New Jersey’s demand for information about its fundraising practices discouraged it from exercising its First Amendment rights, or whether the group must instead litigate that claim in state proceedings. But the case has garnered significant attention because that question comes to the court in a case involving First Choice Women’s Resource Centers, a group of faith-based pregnancy centers that the New Jersey attorney general’s office contends may have misled women about abortion services.</p>
+
+
+
+<p>New Jersey’s attorney general, Matthew Platkin, issued a subpoena to First Choice in which he sought (among other things) information about the group’s donors. First Choice went to federal court to challenge the subpoena, but the district court concluded that it could not review the claims because only a state court has the power to enforce or quash a subpoena.</p>
+
+
+
+<p>After a divided panel of the U.S. Court of Appeals for the 3rd Circuit upheld the district court’s ruling and dismissed the case, First Choice came to the Supreme Court, which granted review in <a href="https://www.scotusblog.com/cases/case-files/first-choice-womens-resource-centers-inc-v-platkin/"><em>First Choice Women’s Resource Centers v. Platkin</em></a> in June.</p>
+
+
+
+<p>But the biggest cases are still likely to come. For the past few years, many of the most notable cases – including <a href="https://www.scotusblog.com/cases/case-files/trump-v-casa-inc/"><em>Trump v. CASA</em></a>, <a href="https://www.scotusblog.com/cases/case-files/trump-v-united-states-3/"><em>Trump v. United States</em></a><em>,</em> <a href="https://www.scotusblog.com/cases/case-files/loper-bright-enterprises-v-raimondo/"><em>Loper-Bright Enterprises v. Raimondo</em></a>, <a href="https://www.scotusblog.com/cases/case-files/biden-v-nebraska-2/"><em>Biden v. Nebraska</em></a>, and <a href="https://www.scotusblog.com/cases/case-files/kennedy-v-bremerton-school-district-2/"><em>Kennedy v. Bremerton School District</em></a>, just to name a few – were not added to the court’s docket until <em>after</em> the justices’ summer recess. So more high-profile cases could be on the way, including challenges to Trump administration initiatives that <a href="https://www.scotusblog.com/2025/07/the-emergency-docket-goes-quiet-for-now/">return</a> to the court on the merits after making appearances on the emergency docket during the 2024-25 term.</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/most-important-upcoming-supreme-court-cases/">The most important cases of the next term</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530344</post-id>
+        </item>
+        <item>
+            <title>The morning read for Monday, July 28</title>
+            <link>https://www.scotusblog.com/2025/07/the-morning-read-for-monday-july-28/</link>
+
+            <dc:creator><![CDATA[Zachary Shemtob]]></dc:creator>
+            <pubDate>Mon, 28 Jul 2025 13:00:00 +0000</pubDate>
+            <category><![CDATA[Round-up]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530340</guid>
+
+            <description><![CDATA[<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Monday morning read:</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-monday-july-28/">The morning read for Monday, July 28</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Monday morning read:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.cnn.com/2025/07/27/politics/trumps-effort-to-end-birthright-citizenship-could-have-taken-effect-this-weekend-lower-courts-are-continuing-to-block-it">Trump’s effort to end birthright citizenship could have taken effect this weekend. Lower courts are continuing to block it</a> (Devan Cole, CNN)</li>
+
+
+
+<li><a href="https://apnorc.org/projects/confidence-in-the-supreme-court-is-increasing-but-so-are-concerns-over-its-power/">Confidence in the Supreme Court is increasing, but so are concerns over its power</a> (AP/NORC)</li>
+
+
+
+<li><a href="https://nypost.com/2025/07/25/us-news/trump-says-obama-owes-me-big-for-supreme-court-immunity-ruling/">Trump says Obama ‘owes me big’ for Supreme Court immunity ruling</a> (Steven Nelson, The New York Post)</li>
+
+
+
+<li><a href="https://thehill.com/regulation/court-battles/5420857-trump-winning-streak-supreme-court/">Trump notches winning streak in Supreme Court emergency docket deluge</a> (Zach Schonfeld and Ella Lee, The Hill) </li>
+
+
+
+<li><a href="https://www.nytimes.com/2025/07/27/arts/smithsonian-john-roberts-trump-supreme-court.html">In Smithsonian Role, John Roberts Encounters History, Pandas and Trump</a> (Abbie VanSickle, Robin Pogrebin, and Graham Bowley, The New York Times) </li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-monday-july-28/">The morning read for Monday, July 28</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530340</post-id>
+        </item>
+        <item>
+            <title>Is religious freedom possible in state schools?</title>
+            <link>https://www.scotusblog.com/2025/07/is-religious-freedom-possible-in-state-schools/</link>
+
+            <dc:creator><![CDATA[Richard Garnett]]></dc:creator>
+            <pubDate>Fri, 25 Jul 2025 14:12:53 +0000</pubDate>
+            <category><![CDATA[Recurring Columns]]></category>
+            <category><![CDATA[Rights and Responsibilities]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530319</guid>
+
+            <description><![CDATA[<p>Rights and Responsibilities&#160;is a recurring series by Richard Garnett on legal education, the role of the courts in our constitutional structure, and the law of religious freedom and free expression. [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/is-religious-freedom-possible-in-state-schools/">Is religious freedom possible in state schools?</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p><em><em><a href="https://www.scotusblog.com/category/rights-and-responsibilities/">Rights and Responsibilities</a>&nbsp;</em>is a recurring series by <a href="https://www.scotusblog.com/author/rgarnett/">Richard Garnett</a> on legal education, the role of the courts in our constitutional structure, and the law of religious freedom and free expression.</em></p>
+
+
+
+<p><em>Please note that the views of outside contributors do not reflect the official opinions of SCOTUSblog or its staff.</em></p>
+
+
+
+<p>One of the more closely watched, “hot-button” cases of the Supreme Court’s recently wound-down 2024-25 term was <a href="https://www.scotusblog.com/cases/case-files/mahmoud-v-taylor/"><em>Mahmoud v. Taylor</em></a>. (For more, see my friend Asma Uddin’s helpful July 1 <a href="https://www.scotusblog.com/2025/07/when-inclusion-becomes-compulsion-mahmoud-v-taylor-pluralism-and-public-education/">review and discussion</a> of the decision.) In a nutshell, the case involved several parents’ First Amendment challenge to a Maryland school district’s policy banning notice about, and “opt outs” from, certain books and lessons regarding gender identity and sexual orientation. The court ruled, in a 6-3 decision, that the policy (likely) imposes a “burden” on the objecting parents’ religious-freedom rights and that this burden (likely) is not constitutionally justified.</p>
+
+
+
+<span id="more-530319"></span>
+
+
+
+<p>Along the way, the justices discussed, and disputed, a number of interesting and important questions. What, for example, is the current status and import of the court’s landmark 1972 ruling in <a href="https://supreme.justia.com/cases/federal/us/406/205/"><em>Yoder v. Wisconsin</em></a>, in which the court held that forcing Amish children to attend school past the eighth grade violated “the rights of parents to direct the religious upbringing of their children”? Was it simply a “one-off” win for Amish parents whom the court found intriguing, charming, and nonthreatening? Or, does it stand for a foundational, and legally enforceable, principle that parents have the right to direct the education and formation of their children because, as the court <a href="https://supreme.justia.com/cases/federal/us/268/510/">put it</a> in 1925, “the child is not the mere creature of the State”? Is public education a “public benefit” to which governments may, as they so often do, attach “take it or leave it”-type conditions? Are courts considering constitutional claims supposed to afford special deference to politically accountable school districts and administrators?</p>
+
+
+
+<p>In my view, the majority’s decision was correct. Given the relevant doctrines and precedents, instruction and materials used in the education of primary-school children <em>can </em>impose a burden on protected constitutional rights, and it is difficult for officials to claim that such a burden is necessary and unavoidable when, as was the case here, the district permits and provides “opt outs” and notice in other contexts. As Justice Samuel Alito observed, the parents objected to curricular content that went beyond mere “exposure to objectionable ideas” and messages that went beyond “mutual respect”; rather, “the storybooks unmistakably convey[ed] a particular viewpoint about same-sex marriage and gender,” and the school board “specifically encouraged teachers to reinforce this viewpoint and to reprimand any children who disagree.”</p>
+
+
+
+<p>Contrary to the suggestion of Justice Sonia Sotomayor, her dissenting colleagues, and some critical commentators, the ruling does not require chaos and it is not a green light for courts, or parents, to micromanage the school day. The majority clearly affirmed the overriding importance of “an undisrupted school session conducive to the students’ learning.”</p>
+
+
+
+<p>At the same time, <em>Mahmoud </em>reminds us of deeper problems and (perhaps) inescapable tensions. Almost two decades ago, I wrote a (short!) law-review article with the deliberately provocative title <a href="https://scholarship.law.nd.edu/cgi/viewcontent.cgi?referer=&amp;httpsredir=1&amp;article=1120&amp;context=law_faculty_scholarship"><em>Can There Really Be Free Speech in Public Schools</em></a>? The article addressed a different, earlier Supreme Court decision called <a href="https://supreme.justia.com/cases/federal/us/551/393/"><em>Morse v. Frederick</em></a>, also known as the “BONG HiTS FOR JESUS” case, which upheld the suspension of a high-school student who mischievously displayed a banner with that “message” at a school-sanctioned, extracurricular event.&nbsp;</p>
+
+
+
+<p>I have to admit that a common response from colleagues to the article and its title was to paraphrase the story Garrison Keillor told about a man who, when asked if he believed in infant baptism, said “believe in it, hell, I’ve seen it done!” And yet, I asked in the article, given what we have come to think the First Amendment’s free speech clause means, and considering the values it is thought to enshrine and the dangers against which it is thought to protect, is it <em>really</em> possible for the freedom of speech to coexist with the work, nature, and fundamental mission of government-run public schools? As I noted, most American lawyers recall and thrill to Justice Robert Jackson’s stirring rhetoric in the court’s famous 1943 West Virginia <a href="https://supreme.justia.com/cases/federal/us/319/624/">flag-salute case</a>: “If there is any fixed star in our constitutional constellation, it is that no official, high or petty, can prescribe what shall be orthodox in politics, nationalism, religion, or other matters of opinion.” But is this really true –&nbsp;<em>could&nbsp;</em>it ever be true – in state schools?</p>
+
+
+
+<p>After <em>Mahmoud</em>, we might ask the same question about religious liberty.</p>
+
+
+
+<p>Again, of course, we’ve “seen it done.” There are countless court decisions vindicating the religious-freedom rights of public-school children and their parents and applying the <a href="https://supreme.justia.com/cases/federal/us/393/503/">longstanding maxim</a> that children do not “shed their constitutional rights &#8230; at the schoolhouse gate.” The Constitution’s rule against any “establishment” of religion, correctly understood, is designed to protect religious freedom, after all, and many of the landmark (and controversial) establishment clause decisions have involved the state-school context: <a href="https://supreme.justia.com/cases/federal/us/472/38/">moments of silence</a>, <a href="https://supreme.justia.com/cases/federal/us/374/203/">Bible readings</a>, <a href="https://supreme.justia.com/cases/federal/us/505/577/">graduation invocations</a>, <a href="https://supreme.justia.com/cases/federal/us/449/39/">Ten Commandments displays</a>, and – most recently – <a href="https://www.scotusblog.com/cases/case-files/kennedy-v-bremerton-school-district-2/">praying football coaches</a>. In our law, religious expression is still “expression,” and courts have regularly protected public-school students’ religious expression and activities from discrimination and censorship by school officials.</p>
+
+
+
+<p>Still, the “fit” between the nature and mission of state schooling, on the one hand, and our constitutional commitment to religious liberty, on the other, is an awkward one. Think about some of the pervasive and powerful themes in our law of religious liberty: The government is supposed to be “neutral” with respect to the content, and especially with respect to the viewpoint, of religious expression and creedal profession. It is supposed to manage “forums” in a (generally) “neutral” way. <a href="https://www.supremecourt.gov/opinions/21pdf/21-418_i425.pdf">Until recently</a>, there was an establishment clause rule that did not permit governments to “endorse” any religious teachings. As was noted earlier, it is supposed to be foundational for us that “no official, high or petty,” may prescribe what is “orthodox.” Courts regularly and closely police policies for “coercion” in religious matters. And, when it comes to the free exercise of religion, our law reflects a general openness to accommodations, exceptions, and special treatment (even when they are not required).</p>
+
+
+
+<p>None of this translates very well into the context of state schooling. Public education exists precisely to be not-neutral, to promote “orthodoxy,” to shape belief, to form minds, to forge loyalties, and to mold commitments. Students are assigned grades based on what they say, and one purpose of these grades is to affect what they think, and do. Classrooms do not operate like “forums” or Speakers’ Corner. Accommodations and exceptions for dissidents are not the rule; consensus and shared commitment are the goals. In <em>Mahmoud</em>, all admitted, this was precisely the aim of the contested materials. The school district was not “neutral” with respect to its project; it did not run away from its preferred “viewpoint.”</p>
+
+
+
+<p>So, as another once asked, what is to be done? Courts, most likely, will muddle through with the doctrine that we have, as they have done, at least since the 1960s. They will continue to profess attachment to the “schoolhouse gates” maxim while at the same time appreciating that operating schools, and the enterprise of government-run education, cannot be squared with the purported premises of First Amendment doctrine.</p>
+
+
+
+<p>A less plausible – indeed, I would say, impossible – option would be to “level up” the protections provided for religious liberty in the public-school context to those provided in the “government as regulator” context. But Sotomayor was almost certainly right, in dissent, to complain that, even with today’s technology, bespoke state schooling is not possible. A third option, one that Justice Clarence Thomas held up, years ago, in his own concurring opinion in <a href="https://tile.loc.gov/storage-services/service/ll/usrep/usrep551/usrep551393/usrep551393.pdf"><em>Morse v. Frederick</em></a>, would be to say that, in fact, the First Amendment does not apply in the context of state schooling at all. (Or, if it does, it does so in a way that treats schools, as so many schoolchildren would appreciate and as Pink Floyd depicted, more like prisons than parks.)</p>
+
+
+
+<p>A fourth option is the most promising and attractive. The move toward school choice and educational pluralism has been accelerating rapidly, in legislatures as well as in the courts of law and public opinion. Indeed, at the <em>Mahmoud </em>oral arguments, Justice Ketanji Brown Jackson stated that parents who object to the district’s curricular policies could simply send their kids to private schools. Easier, for many, said than done.&nbsp; The way to reconcile First Amendment commitments with the nature of state education is meaningful, equitable school choice. Certainly, religious-freedom advocates, education reformers, and concerned parents should engage closely with political and policy questions about the purpose and performance of state schooling. At the same time, they should work to make the Constitution’s parental-rights promise a reality for all.</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/is-religious-freedom-possible-in-state-schools/">Is religious freedom possible in state schools?</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530319</post-id>
+        </item>
+        <item>
+            <title>The morning read for Friday, July 25</title>
+            <link>https://www.scotusblog.com/2025/07/the-morning-read-for-friday-july-25/</link>
+
+            <dc:creator><![CDATA[Zachary Shemtob]]></dc:creator>
+            <pubDate>Fri, 25 Jul 2025 13:00:00 +0000</pubDate>
+            <category><![CDATA[Round-up]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530316</guid>
+
+            <description><![CDATA[<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Friday morning read:</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-friday-july-25/">The morning read for Friday, July 25</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>Each weekday, we select a short list of news articles and commentary related to the Supreme Court. Here’s the Friday morning read:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.reuters.com/legal/government/us-appeals-court-blocks-trumps-order-curtailing-birthright-citizenship-2025-07-24/">US appeals court blocks Trump&#8217;s order curtailing birthright citizenship</a> (Nate Raymond, Reuters)</li>
+
+
+
+<li><a href="https://www.usatoday.com/story/news/politics/2025/07/24/supreme-court-trump-kagan-explain-emergency-appeals/85365705007/">Why is the Supreme Court siding with Trump? Elena Kagan says the majority should explain.</a> (Maureen Groppe, USA Today)</li>
+
+
+
+<li><a href="https://thehill.com/homenews/lgbtq/5419154-kentucky-county-clerk-kim-davis-supreme-court-same-sex-marriage-equality-obergefell/">Former Kentucky county clerk Kim Davis asks Supreme Court to reverse same-sex marriage decision</a> (Brooke Migdon, The Hill)</li>
+
+
+
+<li><a href="https://davidlat.substack.com/p/supreme-court-clerk-hiring-october-term-ot-2025-scotus-clerkships">Supreme Court Clerk Hiring Watch: Meet The October Term 2025 SCOTUS Clerks</a> (David Lat, Original Jurisdiction) </li>
+
+
+
+<li><a href="https://www.cnn.com/2025/07/24/politics/ketanji-brown-jackson-antonin-scalia-supreme-court-language-analysis">A little snark, a little sarcasm: How dissenting opinions catch our attention</a> (Joan Biskupic, CNN) </li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/the-morning-read-for-friday-july-25/">The morning read for Friday, July 25</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530316</post-id>
+        </item>
+        <item>
+            <title>Trump administration urges Supreme Court to pause order requiring payment of
+                grants linked to DEI initiatives</title>
+            <link>
+                https://www.scotusblog.com/2025/07/trump-administration-urges-supreme-court-to-pause-order-requiring-payment-of-grants/</link>
+
+            <dc:creator><![CDATA[Amy Howe]]></dc:creator>
+            <pubDate>Thu, 24 Jul 2025 23:10:14 +0000</pubDate>
+            <category><![CDATA[Emergency appeals and applications]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530308</guid>
+
+            <description><![CDATA[<p>The Trump administration came once again to the Supreme Court on Thursday afternoon and asked the justices to pause an order by a federal court in Massachusetts that would require [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/trump-administration-urges-supreme-court-to-pause-order-requiring-payment-of-grants/">Trump administration urges Supreme Court to pause order requiring payment of grants linked to DEI initiatives</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>The Trump administration came <a href="https://www.scotusblog.com/2025/07/supreme-court-pauses-ruling-that-potentially-weakens-the-voting-rights-act/">once again</a> to the Supreme Court on Thursday afternoon and <a href="https://www.supremecourt.gov/DocketPDF/25/25A103/368002/20250724161235096_APHA%20Stay%20Application.pdf">asked the justices</a> to pause an order by a federal court in Massachusetts that would require the National Institutes of Health to pay grants that NIH had terminated because they conflicted with the Trump administration’s “policy positions on diversity, equity, and inclusion.” U.S. Solicitor General D. John Sauer told the justices that the case “presents a particularly clear case for this Court to intervene and stop errant district courts from continuing to disregard this Court’s rulings.”</p>
+
+
+
+<span id="more-530308"></span>
+
+
+
+<p>The government relies on an April 4, 2025, order in which the Supreme Court <a href="https://www.scotusblog.com/2025/04/supreme-court-allows-trump-to-halt-millions-in-teacher-training-grants/">temporarily allowed</a> the Department of Education to halt millions of dollars in teacher-training grants that included funding for DEI initiatives. In an <a href="https://www.supremecourt.gov/opinions/24pdf/24a910_f2bh.pdf">unsigned three-page opinion</a> in that case, a divided court concluded that the government is likely to show that U.S. District Judge Myong Joun did not have the authority to order the government to make the payments under the federal law governing administrative agencies. A federal law known as the Tucker Act, the majority stressed, gives the Court of Federal Claims the power to hear lawsuits arising from contracts with the United States.</p>
+
+
+
+<p>Once the funds were disbursed, the majority reasoned, the government likely would not be able to get them back. By contrast, the majority suggested, the recipients of the funds would not be permanently harmed if the funds are withheld while the litigation continues, because they can always seek repayment later.</p>
+
+
+
+<p>In his filing on Thursday, Sauer argued that the Supreme Court’s ruling in the Department of Education case should foreclose any effort to require NIH to continue paying out grant funds in this case. He complained that defiance by district courts of the Department of Education ruling “has grown to epidemic proportions.”</p>
+
+
+
+<p>And he pointed to <a href="https://www.supremecourt.gov/opinions/24pdf/25a11_2cp3.pdf">Wednesday’s ruling</a> clearing the way for the Trump administration to fire three Democratic appointees to the Consumer Product Safety Commission, in which it had explained that the outcome was “squarely control[led]” by the court’s order <a href="https://www.scotusblog.com/cases/case-files/trump-v-wilcox/">in a similar case from May</a>. </p>
+
+
+
+<p>“As this Court explained yesterday,” Sauer wrote, “when lower courts face materially identical stay requests, this Court’s emergency orders ‘squarely control[].’ Our judicial system rests on vertical <em>stare decisis</em>” – that is, the idea that lower courts should adhere to the precedents set by higher courts – rather than on “a lower-court free-for-all where individual district judges feel free to elevate their own policy judgements over those of the Executive Branch, and their own legal judgments over those of this Court.”</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/trump-administration-urges-supreme-court-to-pause-order-requiring-payment-of-grants/">Trump administration urges Supreme Court to pause order requiring payment of grants linked to DEI initiatives</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530308</post-id>
+        </item>
+        <item>
+            <title>Supreme Court pauses ruling that potentially weakens the Voting Rights Act</title>
+            <link>
+                https://www.scotusblog.com/2025/07/supreme-court-pauses-ruling-that-potentially-weakens-the-voting-rights-act/</link>
+
+            <dc:creator><![CDATA[Amy Howe]]></dc:creator>
+            <pubDate>Thu, 24 Jul 2025 20:00:05 +0000</pubDate>
+            <category><![CDATA[Emergency appeals and applications]]></category>
+            <guid isPermaLink="false">https://www.scotusblog.com/?p=530300</guid>
+
+            <description><![CDATA[<p>The Supreme Court on Thursday put on hold, at least for now, a ruling by a federal appeals court that could limit the power of the Voting Rights Act. In [&#8230;]</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/supreme-court-pauses-ruling-that-potentially-weakens-the-voting-rights-act/">Supreme Court pauses ruling that potentially weakens the Voting Rights Act</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></description>
+            <content:encoded><![CDATA[
+<p>The Supreme Court on Thursday put on hold, at least for now, a ruling by a federal appeals court that could limit the power of the Voting Rights Act. In a brief unsigned order, the justices agreed to pause a decision by the U.S. Court of Appeals for the 8th Circuit holding that private plaintiffs cannot rely on federal civil rights laws to bring claims under Section 2 of the VRA, which bars racial discrimination in voting. The 8th Circuit’s decision will remain blocked to give the plaintiffs in the case – two Native American tribes and several individual voters – time to file a petition for review of that ruling.</p>
+
+
+
+<p>Justices Clarence Thomas, Samuel Alito, and Neil Gorsuch indicated that they would have denied the plaintiffs’ request, thereby allowing the 8th Circuit’s decision to go into effect right away. As is common with cases that come to the court on its emergency docket, neither the majority nor the dissenters provided any explanation for their decisions.</p>
+
+
+
+<span id="more-530300"></span>
+
+
+
+<p>The dispute is a challenge to a state legislative map, adopted in 2021, that eliminated two of the three legislative districts in the northeastern part of North Dakota in which Native American voters had the ability to elect their own candidates. The plaintiffs – the Turtle Mountain Band of Chippewa Indians, the Spirit Lake Tribe, and three Native American voters – contend that the 2021 map diluted the voting power of Native Americans, in violation of Section 2 of the VRA.</p>
+
+
+
+<p>A federal judge in Fargo, North Dakota, agreed and ordered the state to suggest a new map; when the state failed to do so, he directed the state to adopt a map proposed by the plaintiffs, which led to the election of three Native American legislators in 2024.</p>
+
+
+
+<p>North Dakota appealed to the 8th Circuit, which reversed. Two years earlier, the court of appeals had held in a separate decision that private plaintiffs cannot bring a lawsuit directly under Section 2. By a vote of 2-1, the court of appeals now held that private plaintiffs – such as the tribes and the Native American voters – cannot rely on federal civil rights laws to bring claims alleging violations of Section 2.</p>
+
+
+
+<p>Two days before the 8th Circuit’s decision was slated to go into effect, the plaintiffs <a href="https://www.scotusblog.com/2025/07/group-challenges-ruling-that-potentially-weakens-the-voting-rights-act/">came to the Supreme Court</a>, asking the justices to intervene. They contended that allowing the lower court’s ruling to remain in place would expose them to “irreparable harm if a decidedly unlawful map governs the 2026 election.” Moreover, they added, one of the voters who brought the lawsuit, Rep. Collette Brown, could become ineligible to serve if the 2021 map is restored because she does not live in that map’s version of her district.</p>
+
+
+
+<p>Justice Brett Kavanaugh on July 16 issued an administrative stay – that is, an order that temporarily froze the 8th Circuit’s decision to give the court time to consider the plaintiffs’ request.</p>
+
+
+
+<p>North Dakota <a href="https://www.scotusblog.com/2025/07/north-dakota-urges-supreme-court-to-leave-in-place-decision-that-could-weaken-vra/">urged the Supreme Court</a> to “follow the normal course and allow the Eighth Circuit’s judgment to take effect unless and until” the court grants review “and has had the opportunity to fully consider the merits of” what it characterized as the 8th Circuit’s “rigorous analysis.” </p>
+
+
+
+<p>But in a two-paragraph order on Thursday afternoon, the court declined to follow that suggestion. Instead, it stayed the lower court’s ruling until the plaintiffs can file, and the justices can consider, a petition for review of that ruling. If the court opts to rule on the merits of the case, Thursday’s order noted, the 8th Circuit’s decision will remain on hold until the Supreme Court issues its opinion in the case.</p>
+<p>The post <a href="https://www.scotusblog.com/2025/07/supreme-court-pauses-ruling-that-potentially-weakens-the-voting-rights-act/">Supreme Court pauses ruling that potentially weakens the Voting Rights Act</a> appeared first on <a href="https://www.scotusblog.com">SCOTUSblog</a>.</p>
+]]></content:encoded>
+
+
+            <post-id xmlns="com-wordpress:feed-additions:1">530300</post-id>
+        </item>
+    </channel>
+</rss>
